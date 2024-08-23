@@ -1,7 +1,8 @@
+#!/usr/bin/env node
 console.log("ABC");
 
-function addNumbers(a: number, b: number): number {
-  return a + b + 1;
+function addNumbersXYZ(a: number, b: number): number {
+   return a + b + 1;
 }
 
-console.log(addNumbers(1, 2));
+console.log(addNumbersXYZ(1, 2));
