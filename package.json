@@ -1,8 +1,16 @@
 {
     "name": "@wanted.solutions/devstack",
     "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "dev": "concurrently \"npx vite build -w -m development --ssr src/index.ts\" \"node --watch dist\"",
+        "build": "npx vite build -m production --ssr src/index.ts"
+    },
     "devDependencies": {
-        "@devcontainers/cli": "^0.68.0"
+        "@devcontainers/cli": "^0.68.0",
+        "concurrently": "^8.2.2",
+        "vite": "^5.4.2",
+        "vite-node": "^2.0.5"
     },
     "dependencies": {
         "mustache": "^4.2.0"
