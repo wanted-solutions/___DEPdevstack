@@ -1,0 +1,7 @@
+{
+    "name": "@wanted.solutions/devstack",
+    "version": "0.1.0",
+    "devDependencies": {
+        "@devcontainers/cli": "^0.68.0"
+    }
+}
