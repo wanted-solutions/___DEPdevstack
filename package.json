@@ -3,5 +3,8 @@
     "version": "0.1.0",
     "devDependencies": {
         "@devcontainers/cli": "^0.68.0"
+    },
+    "dependencies": {
+        "mustache": "^4.2.0"
     }
 }
